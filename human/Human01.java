@@ -1,9 +1,9 @@
 package human;
 
 public class Human01 {
-private String name;
-private int age;
-private String gender;
+    private String name;
+    private int age;
+    private String gender;
 
 //右クリックで、SetとGetを出す
 public Human01(String name, int age, String gender) {
@@ -30,11 +30,11 @@ public void setGender(String gender) {
     this.gender = gender;
 }
 
-//オーバーライト（すべての要素を文字列に変換してくれるので時短できる）
+/*オーバーライド（すべての要素を文字列に変換してくれるので時短できる）
 @Override
 public String toString() {
     // TODO Auto-generated method stub
     return name+"です。"+age+"才"+gender+"です。";
-}
+}*/
 
 }
